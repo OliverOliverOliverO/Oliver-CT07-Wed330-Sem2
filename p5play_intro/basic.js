@@ -25,14 +25,14 @@ function setup() {
 
 
 
-  let sum = 0;
-  for (let i=2;i<=20;i=i+2) {
-    console.log(i);
-    sum = sum + i;
-    text(i, 20, i*10)
-  }
-  console.log(sum);
-  text(sum, 20, 250);
+  // let sum = 0;
+  // for (let i=2;i<=20;i=i+2) {
+  //   console.log(i);
+  //   sum = sum + i;
+  //   text(i, 20, i*10)
+  // }
+  // console.log(sum);
+  // text(sum, 20, 250);
 
 
   // write your codes here
