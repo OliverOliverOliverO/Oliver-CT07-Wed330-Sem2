@@ -31,7 +31,7 @@ function setup() {
     sum = sum + i;
   }
   console.log(sum);
-  text(sum );
+  text(sum, 20, 50);
 
 
   // write your codes here
