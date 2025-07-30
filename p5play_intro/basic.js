@@ -16,8 +16,8 @@ function setup() {
 
   for (let i=20;i>=1;i--)
     print(i)
-  
-  for (let i=10;i<=20;i++)
+
+  for (let i=3;i<=46;i++)
     print(i)
 
 
