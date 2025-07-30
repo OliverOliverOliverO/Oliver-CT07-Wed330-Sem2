@@ -31,6 +31,7 @@ function setup() {
     sum = sum + i;
   }
   console.log(sum);
+  text.color()
   text(sum, 20, 50);
 
 
