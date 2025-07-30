@@ -6,8 +6,8 @@ function setup() {
 
   // console.log(base * height / 2);
 
-  // new Canvas(800, 400);
-  // background(250);
+  new Canvas(800, 400);
+  background(250);
   // textSize(20);
   // text("the area is " + (base * height / 2), 10, 30);
 
