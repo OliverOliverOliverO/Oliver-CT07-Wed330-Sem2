@@ -40,7 +40,7 @@ function setup() {
   if (age <= 9) {
     console.log("lower primary");
   } else if (age <= 12) {
-    console.log("upper primary")
+    console.log("upper primary");
   }
 
 
