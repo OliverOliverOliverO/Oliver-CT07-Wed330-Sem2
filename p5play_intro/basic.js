@@ -24,8 +24,11 @@ function setup() {
   // }
 
 
-
-  for (let i=2;i<=20)
+  
+  let sum = 0
+  for (let i=2;i<=20;i++) {
+    sum = sum + i
+  }
 
   // write your codes here
 
