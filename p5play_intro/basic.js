@@ -19,7 +19,7 @@ function setup() {
   }
   for (let i=1;i<=(46/3);i++) {
     console.log(i*3);
- 
+  }
 
   // write your codes here
 
