@@ -27,7 +27,7 @@ function setup() {
 
   let sum = 0;
   for (let i=2;i<=20;i=i+2) {
-    console.log(sum);
+    console.log(i);
     sum = sum + i;
   }
   console.log(sum);
