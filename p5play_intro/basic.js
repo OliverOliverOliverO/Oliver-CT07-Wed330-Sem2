@@ -35,6 +35,13 @@ function setup() {
   // text(sum, 20, 250);
 
 
+
+  let age = 10
+  if (age <= 9) {
+    console.log
+  }
+
+
   // write your codes here
 
   // --- Exercise: Area of Triangle ---
