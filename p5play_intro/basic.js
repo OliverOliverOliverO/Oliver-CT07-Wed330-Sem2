@@ -12,7 +12,7 @@ function setup() {
   // text("the area is " + (base * height / 2), 10, 30);
 
   for (let i=10;i<=20;i++)
-    
+    print(i)
 
 
 
