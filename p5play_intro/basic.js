@@ -46,6 +46,10 @@ function setup() {
   // }
 
 
+
+  for
+
+
   // write your codes here
 
   // --- Exercise: Area of Triangle ---
