@@ -1,16 +1,21 @@
 
 
 function setup() {
-  const base = 5;
-  const height = 10;
+  // const base = 5;
+  // const height = 10;
 
-  console.log(base * height / 2);
+  // console.log(base * height / 2);
 
-  new Canvas(800, 400);
-  background(250);
-  textSize(20);
-  text("the area is " + (base * height / 2), 10, 30);
+  // new Canvas(800, 400);
+  // background(250);
+  // textSize(20);
+  // text("the area is " + (base * height / 2), 10, 30);
 
+
+
+
+
+  
   // write your codes here
 
   // --- Exercise: Area of Triangle ---
