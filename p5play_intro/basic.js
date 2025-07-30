@@ -15,8 +15,10 @@ function setup() {
     print(i)
 
   for (let i=20;i>=1;i--)
-  print(i)
-
+    print(i)
+  
+  for (let i=10;i<=20;i++)
+    print(i)
 
 
   // write your codes here
