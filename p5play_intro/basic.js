@@ -11,11 +11,12 @@ function setup() {
   // textSize(20);
   // text("the area is " + (base * height / 2), 10, 30);
 
+  for (let i=10;i<=20;i++)
+    
 
 
 
 
-  
   // write your codes here
 
   // --- Exercise: Area of Triangle ---
