@@ -47,7 +47,11 @@ function setup() {
 
 
 
-  for
+  let i = 19;
+  while (i >= 1) {
+    i = i - 2;
+    console.log(i);
+  }
 
 
   // write your codes here
