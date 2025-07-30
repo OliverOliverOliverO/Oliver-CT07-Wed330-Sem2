@@ -11,15 +11,17 @@ function setup() {
   // textSize(20);
   // text("the area is " + (base * height / 2), 10, 30);
 
-  for (let i=10;i<=20;i++) {
-    console.log(i);
-  }
-  for (let i=20;i>=1;i--) {
-    console.log(i);
-  }
-  for (let i=1;i<=(46/3);i++) {
-    console.log(i*3);
-  }
+  
+
+  // for (let i=10;i<=20;i++) {
+  //   console.log(i);
+  // }
+  // for (let i=20;i>=1;i--) {
+  //   console.log(i);
+  // }
+  // for (let i=1;i<=(46/3);i++) {
+  //   console.log(i*3);
+  // }
 
   // write your codes here
 
