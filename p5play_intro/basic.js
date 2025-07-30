@@ -29,9 +29,10 @@ function setup() {
   for (let i=2;i<=20;i=i+2) {
     console.log(i);
     sum = sum + i;
+    text()
   }
   console.log(sum);
-  text(sum, 20, 50);
+  text(sum, 20, 200);
 
 
   // write your codes here
