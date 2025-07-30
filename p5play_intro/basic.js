@@ -39,7 +39,6 @@ function setup() {
   let age = 10;
   if (age <= 9) {
     console.log("lower primary");
-    
   }
 
 
