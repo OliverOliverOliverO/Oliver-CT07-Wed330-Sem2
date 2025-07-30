@@ -8,7 +8,7 @@ function setup() {
 
   new Canvas(800, 400);
   background(250);
-  // textSize(20);
+  textSize(20);
   // text("the area is " + (base * height / 2), 10, 30);
 
 
@@ -32,7 +32,7 @@ function setup() {
     text(i, 20, i*10)
   }
   console.log(sum);
-  text(sum, 20, 200);
+  text(sum, 20, 250);
 
 
   // write your codes here
