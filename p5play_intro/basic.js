@@ -47,11 +47,11 @@ function setup() {
 
 
 
-  let i = 19;
-  while (i >= 1) {
-    console.log(i);
-    i = i - 2;
-  }
+  // let i = 19;
+  // while (i >= 1) {
+  //   console.log(i);
+  //   i = i - 2;
+  // }
 
 
   // write your codes here
