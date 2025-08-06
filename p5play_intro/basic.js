@@ -58,7 +58,7 @@ function setup() {
   let list = []
 
 
-  
+
 
 
   // write your codes here
