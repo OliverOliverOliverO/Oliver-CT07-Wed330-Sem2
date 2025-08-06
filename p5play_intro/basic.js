@@ -55,7 +55,8 @@ function setup() {
 
 
 
-  let list = ["a", "b", "c", "d"]
+  let list = ["a", "b", "c", "d"];
+  console.log(list[3]);
 
 
 
