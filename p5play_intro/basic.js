@@ -54,6 +54,13 @@ function setup() {
   // }
 
 
+
+  let list = []
+
+
+  
+
+
   // write your codes here
 
   // --- Exercise: Area of Triangle ---
