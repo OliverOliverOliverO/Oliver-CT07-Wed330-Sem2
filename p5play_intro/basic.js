@@ -77,6 +77,7 @@ function setup() {
 
 
 
+  let groceries = ["apple", "bread", "milk"];
   
 
 
