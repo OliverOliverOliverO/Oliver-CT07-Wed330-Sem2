@@ -63,6 +63,7 @@ function setup() {
   list.unshift("g");
   list.splice(4, 0, "h");
   list.splice(1,1);
+  list.splice(namesindexOf(""))
 
 
   for(let i=0;i<list.length;i++) {
