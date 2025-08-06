@@ -64,7 +64,7 @@ function setup() {
   list.splice(4, 0, "h");
   list.splice(1,1);
   list.splice(list.indexOf("f"),1);
-  
+  if(console.log(list.includes("")))
 
 
   for(let i=0;i<list.length;i++) {
