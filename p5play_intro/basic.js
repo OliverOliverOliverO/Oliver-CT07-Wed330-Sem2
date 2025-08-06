@@ -66,7 +66,7 @@ function setup() {
 
 
   for(let i=0;i<list.length;i++) {
-    console.log(i);
+    console.log(list[i]);
   }
 
 
