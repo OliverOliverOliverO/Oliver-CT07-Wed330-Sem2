@@ -65,7 +65,9 @@ function setup() {
   list.splice(1,1);
 
 
-  console.log(list);
+  for(let i=0;i<list.length;i++) {
+    console.log(i);
+  }
 
 
 
