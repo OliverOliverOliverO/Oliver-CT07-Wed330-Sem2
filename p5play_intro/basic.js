@@ -57,7 +57,7 @@ function setup() {
 
   let list = ["a", "b", "c", "d"];
   list[2] = "e";
-  list
+  list.push("z")
 
   console.log(list);
 
