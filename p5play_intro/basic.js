@@ -84,7 +84,7 @@ function setup() {
   groceries.splice(1,1,"kaya");
   console.log(groceries);
   for(i of groceries) {
-    text(i,40,);
+    text(i,40,20*FileList.indexOf());
   }
 
 
