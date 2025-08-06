@@ -55,25 +55,29 @@ function setup() {
 
 
 
-  let list = ["a", "b", "c", "d"];
-  list.pop();
-  list.shift();
-  list[2] = "e";
-  list.push("f");
-  list.unshift("g");
-  list.splice(4, 0, "h");
-  list.splice(1,1);
-  list.splice(list.indexOf("f"),1);
-  if(list.includes("e")) {
-    list.push("e");
-    list.push("e");
-    list.push("e");
-  }
+  // let list = ["a", "b", "c", "d"];
+  // list.pop();
+  // list.shift();
+  // list[2] = "e";
+  // list.push("f");
+  // list.unshift("g");
+  // list.splice(4, 0, "h");
+  // list.splice(1,1);
+  // list.splice(list.indexOf("f"),1);
+  // if(list.includes("e")) {
+  //   list.push("e");
+  //   list.push("e");
+  //   list.push("e");
+  // }
 
 
-  for(let i=0;i<list.length;i++) {
-    console.log(list[i]);
-  }
+  // for(let i=0;i<list.length;i++) {
+  //   console.log(list[i]);
+  // }
+
+
+
+  
 
 
 
