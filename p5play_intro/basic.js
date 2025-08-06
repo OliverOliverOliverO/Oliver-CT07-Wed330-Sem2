@@ -60,6 +60,7 @@ function setup() {
   list.push("f")
   list.unshift("g")
   list.splice(4, 0, "h")
+  list.pop()
 
   console.log(list);
 
