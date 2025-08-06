@@ -83,7 +83,9 @@ function setup() {
   groceries.shift();
   groceries.splice(1,1,"kaya");
   console.log(groceries);
-  for(i of groceries)
+  for(i of groceries) {
+    console.log(i);
+  }
 
 
 
