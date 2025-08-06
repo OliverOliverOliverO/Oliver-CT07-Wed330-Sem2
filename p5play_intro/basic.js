@@ -65,9 +65,9 @@ function setup() {
   list.splice(1,1);
   list.splice(list.indexOf("f"),1);
   if(list.includes("e")) {
-    list.push(e);
-    list.push(e);
-    list.push(e);
+    list.push("e");
+    list.push("e");
+    list.push("e");
   }
 
 
