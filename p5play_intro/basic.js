@@ -57,7 +57,8 @@ function setup() {
 
   let list = ["a", "b", "c", "d"];
   list[2] = "e";
-  list.push("z")
+  list.push("f")
+  list.unshift("g")
 
   console.log(list);
 
