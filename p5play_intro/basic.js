@@ -62,6 +62,8 @@ function setup() {
   list.push("f");
   list.unshift("g");
   list.splice(4, 0, "h");
+  list.splice(1,1);
+
 
   console.log(list);
 
