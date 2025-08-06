@@ -56,10 +56,12 @@ function setup() {
 
 
   let list = ["a", "b", "c", "d"];
+  list.pop();
+  list.shift();
   list[2] = "e";
-  list.push("f")
-  list.unshift("g")
-  list.splice(4, 0, "h")
+  list.push("f");
+  list.unshift("g");
+  list.splice(4, 0, "h");
 
   console.log(list);
 
