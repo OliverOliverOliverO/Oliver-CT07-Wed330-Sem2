@@ -77,11 +77,11 @@ function spawnPipePair() {
   let gap = 50;
   let midY = height / 2;
 
-  topPipe = new Sprite(400, midY - gap / 2 - 200, 52, 320);
+  topPipe = new Sprite(400, midY - gap / 2 - 200, 52, 320, 'kinetic');
   topPipe.img = pipeImg;
   topPipe.rotation = 180;
   
-  bottomPipe = new Sprite(400, midY + gap / 2 +   200, 52, 320);
+  bottomPipe = new Sprite(400, midY + gap / 2 +   ]200, 52, 320);
   bottomPipe.img = pipeImg;
 
   pipeGroup.add(topPipe);
