@@ -84,7 +84,7 @@ function draw(){
     pipeGroup.add(topPipe);
     pipeGroup.add(bottomPipe);
 
-    topPipe.fr
+    topPip
   }
 
 //   if(mouse.presses('left')){
