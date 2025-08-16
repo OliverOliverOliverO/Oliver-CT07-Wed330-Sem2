@@ -1,4 +1,4 @@
 // write your codes here
 function setup() {
-    new Canvas
+    new Canvas(400,600)
 }
