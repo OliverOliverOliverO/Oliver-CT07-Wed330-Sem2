@@ -70,7 +70,7 @@ function draw(){
     spawnPipePair();
   }
 
-  pipeGroup.x = 10;
+  pipeGroup.x = pipeGroup.x - 1;
 }
 
 function spawnPipePair() {
