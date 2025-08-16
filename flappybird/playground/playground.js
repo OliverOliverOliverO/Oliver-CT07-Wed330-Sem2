@@ -82,6 +82,7 @@ function draw(){
     bottomPipe.rotation = 0;
 
     topPipe.gro
+    
   }
 
 //   if(mouse.presses('left')){
