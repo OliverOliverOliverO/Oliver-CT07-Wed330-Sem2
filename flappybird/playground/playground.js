@@ -70,7 +70,7 @@ function draw(){
     spawnPipePair();
   }
 
-  topPipe.vel.x = -10;
+  pipeGroup.vel.x = -10;
 }
 
 function spawnPipePair() {
