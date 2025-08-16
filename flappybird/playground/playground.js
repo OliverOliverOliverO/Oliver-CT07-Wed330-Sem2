@@ -6,10 +6,10 @@ let bird2;
 function preload(){
   bg = loadImage('assets/background-day.png');
   base = loadImage('assets/base.png');
+  
   flapMidImg = loadImage('assets/yellowbird-midflap.png');
   flapUpImg = loadImage('assets/yellowbird-upflap.png');
-  flapDownImg = loadImage('assets/yellowbird-upflap.png');
-
+  flapDownImg = loadImage('assets/yellowbird-downflap.png');
 }
 
 function setup(){
