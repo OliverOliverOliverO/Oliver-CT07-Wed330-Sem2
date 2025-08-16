@@ -70,7 +70,7 @@ function draw(){
     spawnPipePair();
   }
 
-  pipeGroup.vel.x = -10;
+  pipeGroup.vel.x = -3;
 }
 
 function spawnPipePair() {
@@ -81,7 +81,7 @@ function spawnPipePair() {
   topPipe.img = pipeImg;
   topPipe.rotation = 180;
   
-  bottomPipe = new Sprite(400, midY + gap / 2 + 200, 52, 320);
+  bottomPipe = new Sprite(400, midY + gap / 2 + 200, 52, 320, 'kinematic');
   bottomPipe.img = pipeImg;
 
   pipeGroup.add(topPipe);
