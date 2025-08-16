@@ -74,7 +74,7 @@ function draw(){
     let gap = 50;
     let midY = height / 2;
 
-    topPipe = new Sprite(400, midY-gap / 2)
+    topPipe = new Sprite(400, midY - gap / 2 - 200)
   }
 
 //   if(mouse.presses('left')){
