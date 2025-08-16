@@ -66,32 +66,24 @@ function draw(){
     bird.rotation = 0;
   }
 
-  if(frameCount === 1) {
-    spawnPipePair();
-  }
-}
-function spawnPipePair() {
-  let gap = 50;
-  let midY = height / 2;
+//   if(frameCount === 1) {
+//     spawnPipePair();
+//   }
+// }
+// function spawnPipePair() {
+//   let gap = 50;
+//   let midY = height / 2;
 
-  topPipe = new Sprite(400, midY - gap / 2 - 200, 52, 320, 'static');
-  topPipe.img = pipe;
-  topPipe.rotation = 180;
+//   topPipe = new Sprite(400, midY - gap / 2 - 200, 52, 320, 'static');
+//   topPipe.img = pipe;
+//   topPipe.rotation = 180;
   
-  bottomPipe = new Sprite(400, midY + gap / 2 + 200, 52, 320, 'static');
-  bottomPipe.img = pipe;
+//   bottomPipe = new Sprite(400, midY + gap / 2 + 200, 52, 320, 'static');
+//   bottomPipe.img = pipe;
 
-  pipeGroup.add(topPipe);
-  pipeGroup.add(bottomPipe);
+//   pipeGroup.add(topPipe);
+//   pipeGroup.add(bottomPipe);
 
-  pipeGroup.layer = 0;
+//   pipeGroup.layer = 0;
+// }
 }
-
-//   if(mouse.presses('left')){
-//     bird2 = new Sprite(mouse.x,mouse.y,30,30,'dynamic');
-//     bird2.img = flapMidImg
-//   }
-//   if(mouse.presses('right')){
-//     bird2= new Sprite(mouse.x,mouse.y,30,30,'static');
-//     bird2.img = flapMidImg
-//   }
