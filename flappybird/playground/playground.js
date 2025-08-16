@@ -84,7 +84,7 @@ function draw(){
     pipeGroup.add(topPipe);
     pipeGroup.add(bottomPipe);
 
-    
+    pipe
   }
 
 //   if(mouse.presses('left')){
