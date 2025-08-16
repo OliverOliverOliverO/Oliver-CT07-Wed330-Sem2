@@ -4,7 +4,7 @@ let bg, base, flapMidImg;
 let bird2;
 let pipeGroup;
 let pipe;
-let
+let topPipe, bottomPipe;
 //load the images before game starts
 function preload(){
   bg = loadImage('assets/background-day.png');
