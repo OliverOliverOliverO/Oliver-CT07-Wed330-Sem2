@@ -66,6 +66,10 @@ function draw(){
     bird.rotation = 0;
   }
 
+  if(frameCount == 1) {
+    spawnPipePair
+  }
+
 //   if(mouse.presses('left')){
 //     bird2 = new Sprite(mouse.x,mouse.y,30,30,'dynamic');
 //     bird2.img = flapMidImg
