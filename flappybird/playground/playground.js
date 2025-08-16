@@ -47,6 +47,9 @@ function draw(){
     bird.sleeping = false;
   }
 
+
+  if(bird.vel.y )
+
 //   if(mouse.presses('left')){
 //     bird2 = new Sprite(mouse.x,mouse.y,30,30,'dynamic');
 //     bird2.img = flapMidImg
