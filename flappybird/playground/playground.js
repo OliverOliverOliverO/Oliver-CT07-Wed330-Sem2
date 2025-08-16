@@ -69,8 +69,8 @@ function draw(){
   if(frameCount === 1) {
     spawnPipePair();
   }
-  
-  pipeGroup.x -= 10;
+
+  pipeGroup.x = 10;
 }
 
 function spawnPipePair() {
