@@ -6,7 +6,7 @@ let bird2;
 function preload(){
   bg = loadImage('assets/background-day.png');
   base = loadImage('assets/base.png');
-  
+
   flapMidImg = loadImage('assets/yellowbird-midflap.png');
   flapUpImg = loadImage('assets/yellowbird-upflap.png');
   flapDownImg = loadImage('assets/yellowbird-downflap.png');
@@ -42,7 +42,7 @@ function setup(){
 function draw(){
   image(bg,0,0,width,height); // draw the bg
 
-  if(kb.presses('space')){
+  if(kb.presses('space') || mouse.presses('left')){
     bird.vel.y = -5;
     bird.sleeping = false;
   }
