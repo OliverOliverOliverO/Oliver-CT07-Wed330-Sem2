@@ -63,8 +63,8 @@ function draw(){
 //     bird2 = new Sprite(mouse.x,mouse.y,30,30,'dynamic');
 //     bird2.img = flapMidImg
 //   }
-  if(mouse.presses('right')){
-    bird2= new Sprite(mouse.x,mouse.y,30,30,'static');
-    bird2.img = flapMidImg
-  }
+//   if(mouse.presses('right')){
+//     bird2= new Sprite(mouse.x,mouse.y,30,30,'static');
+//     bird2.img = flapMidImg
+//   }
 }
