@@ -49,7 +49,7 @@ function draw(){
 
 
   if(bird.vel.y < -1) {
-    bird
+    bird.img = flapUpImg
   }
 
 //   if(mouse.presses('left')){
