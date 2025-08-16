@@ -74,7 +74,7 @@ function draw(){
     let gap = 50;
     let midY = height / 2;
 
-    topPipe = new Sprite(400, midY - gap / 2 - 200, 'static')
+    topPipe = new Sprite(400, midY - gap / 2 - 200, 52, 320, 'static')
     topPipe.img = pipe;
     topPipe.rotation = 180;
     bottomPipe = new Sprite(400, midY + gap / 2 - 200, 52, 320, 'static')
