@@ -42,7 +42,7 @@ function setup(){
  floor.collider = 'static';
  floor.img = base;
 
- pipe.group = new Group;
+ pipeGroup = new Group;
 
 }
 
