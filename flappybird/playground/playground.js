@@ -69,7 +69,7 @@ function draw(){
   if(frameCount === 1) {
     spawnPipePair();
   }
-  pipeGroup
+  pipeGroup.y -= 10
 }
 
 function spawnPipePair() {
