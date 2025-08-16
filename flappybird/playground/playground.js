@@ -48,7 +48,9 @@ function draw(){
   }
 
 
-  if(bird.vel.y )
+  if(bird.vel.y < -1) {
+    
+  }
 
 //   if(mouse.presses('left')){
 //     bird2 = new Sprite(mouse.x,mouse.y,30,30,'dynamic');
