@@ -69,23 +69,23 @@ function draw(){
   if(frameCount === 1) {
     spawnPipePair();
   }
+}
+function spawnPipePair() {
+  let gap = 50;
+  let midY = height / 2;
 
-  function spawnPipePair() {
-    let gap = 50;
-    let midY = height / 2;
+  topPipe = new Sprite(400, midY - gap / 2, 200 - 52, 320, 'static');
+  topPipe.img = pipe;
+  topPipe.rotation = 180;
+  bottomPipe = new Sprite(400, midY + gap / 2 - 200, 52, 320, 'static');
+  bottomPipe.img = pipe;
+  bottomPipe.rotation = 0;
 
-    topPipe = new Sprite(400, midY - gap / 2, 200 - 52, 320, 'static');
-    topPipe.img = pipe;
-    topPipe.rotation = 180;
-    bottomPipe = new Sprite(400, midY + gap / 2 - 200, 52, 320, 'static');
-    bottomPipe.img = pipe;
-    bottomPipe.rotation = 0;
+  pipeGroup.add(topPipe);
+  pipeGroup.add(bottomPipe);
 
-    pipeGroup.add(topPipe);
-    pipeGroup.add(bottomPipe);
-
-    pipeGroup.layer = 0;
-  }
+  pipeGroup.layer = 0;
+}
 
 //   if(mouse.presses('left')){
 //     bird2 = new Sprite(mouse.x,mouse.y,30,30,'dynamic');
@@ -95,4 +95,3 @@ function draw(){
 //     bird2= new Sprite(mouse.x,mouse.y,30,30,'static');
 //     bird2.img = flapMidImg
 //   }
-}
