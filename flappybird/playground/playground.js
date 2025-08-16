@@ -53,7 +53,9 @@ function draw(){
     bird.rotation = -30;
   } else if (birl.vel.y > 1) {
     bird.img = flapDownImg;
-  } else 
+  } else {
+    bird.img = flapMidImg;
+  }
 
 //   if(mouse.presses('left')){
 //     bird2 = new Sprite(mouse.x,mouse.y,30,30,'dynamic');
