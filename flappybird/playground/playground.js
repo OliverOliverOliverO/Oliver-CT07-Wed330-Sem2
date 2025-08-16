@@ -80,6 +80,8 @@ function draw(){
     bottomPipe = new Sprite(400, midY + gap / 2 - 200, 52, 320, 'static')
     bottomPipe.img = pipe;
     bottomPipe.rotation = 0;
+
+    topPipe.gro
   }
 
 //   if(mouse.presses('left')){
