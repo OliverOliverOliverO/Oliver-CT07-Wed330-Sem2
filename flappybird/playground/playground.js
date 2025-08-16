@@ -49,7 +49,7 @@ function draw(){
 
 
   if(bird.vel.y < -1) {
-    
+    bird
   }
 
 //   if(mouse.presses('left')){
