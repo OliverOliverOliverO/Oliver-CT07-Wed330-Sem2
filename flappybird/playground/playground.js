@@ -2,7 +2,7 @@
 let bird , floor;
 let bg, base, flapMidImg;
 let bird2;
-let pipeGroup;
+// let pipeGroup;
 let pipe;
 let topPipe, bottomPipe;
 //load the images before game starts
