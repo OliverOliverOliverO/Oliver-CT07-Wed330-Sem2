@@ -81,8 +81,7 @@ function draw(){
     bottomPipe.img = pipe;
     bottomPipe.rotation = 0;
 
-    topPipe.gro
-    
+    pipeGroup
   }
 
 //   if(mouse.presses('left')){
