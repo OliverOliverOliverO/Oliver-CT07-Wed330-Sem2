@@ -76,7 +76,9 @@ function draw(){
   }
 
   for (let pipe of pipeGroup) {
-    if(pipe.x < -50){}
+    if(pipe.x < -50){
+        pipe.remove();
+    }
   }
 
 }
@@ -85,7 +87,7 @@ function spawnPipePair() {
   let gap = 50;
   let midY = random(0, 300);
 
-  topPipe = new Sprite(400, midY - gap / 2 - 200, 52, 320, 'kinematic');
+  topPipe = new Sprite(400 + bird.x, midY - gap / 2 - 200, 52, 320, 'kinematic');
   topPipe.img = pipeImg;
   topPipe.rotation = 180;
   
