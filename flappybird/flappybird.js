@@ -85,7 +85,7 @@ function draw(){
 
 function spawnPipePair() {
   let gap = 50;
-  let midY = random(0, 300);
+  let midY = random(50, 300);
 
   topPipe = new Sprite(400 + bird.x, midY - gap / 2 - 200, 52, 320, 'kinematic');
   topPipe.img = pipeImg;
