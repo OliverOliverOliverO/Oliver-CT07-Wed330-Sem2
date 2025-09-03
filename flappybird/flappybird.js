@@ -70,7 +70,9 @@ function draw(){
   if(frameCount % 120 === 60) {
     spawnPipePair();
   }
-  bird.c
+  bird.x += 3;
+  camera.x = bird.x;
+  
 }
 
 function spawnPipePair() {
