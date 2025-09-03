@@ -67,12 +67,14 @@ function draw(){
     bird.rotation = 0;
   }
 
+bird.x += 3;
+  camera.x = bird.x;
+  floor.x = bird.x;
+
   if(frameCount % 120 === 60) {
     spawnPipePair();
   }
-  bird.x += 3;
-  camera.x = bird.x;
-  floor.x = bird.x;
+
 }
 
 function spawnPipePair() {
