@@ -81,11 +81,11 @@ function spawnPipePair() {
   let gap = 50;
   let midY = random(0, 300);
 
-  topPipe = new Sprite(400, midY - gap / 2 - 200, 52 + bird.x, 320, 'kinematic');
+  topPipe = new Sprite(400, midY - gap / 2 - 200, 52  320, 'kinematic');
   topPipe.img = pipeImg;
   topPipe.rotation = 180;
   
-  bottomPipe = new Sprite(400, midY + gap / 2 + 200, 52 + bird.x, 320, 'kinematic');
+  bottomPipe = new Sprite(400, midY + gap / 2 + 200, 320, 'kinematic');
   bottomPipe.img = pipeImg;
 
   pipeGroup.add(topPipe);
