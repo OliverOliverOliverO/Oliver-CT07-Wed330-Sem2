@@ -85,7 +85,7 @@ function spawnPipePair() {
   topPipe.img = pipeImg;
   topPipe.rotation = 180;
   
-  bottomPipe = new Sprite(400, midY + gap / 2 + 200, 52, 320, 'kinematic');
+  bottomPipe = new Sprite(400, midY + gap / 2 + 200, 52 + bird.x, 320, 'kinematic');
   bottomPipe.img = pipeImg;
 
   pipeGroup.add(topPipe);
