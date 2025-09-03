@@ -70,9 +70,7 @@ function draw(){
   if(frameCount % 120 === 60) {
     spawnPipePair();
   }
-
-  pipeGroup.vel.x = -3;
-
+  bird.c
 }
 
 function spawnPipePair() {
