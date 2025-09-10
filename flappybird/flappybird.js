@@ -50,6 +50,8 @@ function setup(){
 
  pipeGroup = new Group();
 
+ startScreenLabel 
+
 }
 
 function draw(){
