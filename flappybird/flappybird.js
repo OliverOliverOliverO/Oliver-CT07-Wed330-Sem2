@@ -7,6 +7,7 @@ let pipeGroup;
 let pipe;
 let topPipe, bottomPipe;
 let gameoverLabel;
+let startscreenLabel;
 //load the images before game starts
 function preload(){
   bg = loadImage('assets/background-day.png');
