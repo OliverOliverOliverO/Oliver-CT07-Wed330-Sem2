@@ -81,6 +81,10 @@ function draw(){
     }
   }
 
+  if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y > height) {
+    nol
+  }
+
 }
 
 function spawnPipePair() {
