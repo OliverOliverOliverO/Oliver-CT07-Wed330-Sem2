@@ -89,6 +89,7 @@ function draw(){
     gameoverLabel = new Sprite(width/2,heeight/2,192,42);
     gameoverLabel.img = gameoverImg;
     gameoverLabel.layer = 100;
+    gameoverLabel.x = camera.x;
     noLoop();
   }
 
