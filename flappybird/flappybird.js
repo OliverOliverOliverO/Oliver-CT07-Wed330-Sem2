@@ -61,47 +61,50 @@ function draw(){
 
 
   if (kb.presses('space') || mouse.presses('left')){
-    startGame = true
+    startGame = true;
+    startscreenLabel.visible = false;
   }
+  if (startGame) {
 
-  if(kb.presses('space') || mouse.presses('left')){
-    bird.vel.y = -5;
-    bird.sleeping = false;
-  }
-
-
-  if(bird.vel.y < -1) {
-    bird.img = flapUpImg;
-    bird.rotation = -30;
-  } else if (bird.vel.y > 1) {
-    bird.img = flapDownImg;
-    bird.rotation = 30;
-  } else {
-    bird.img = flapMidImg;
-    bird.rotation = 0;
-  }
-
-  bird.x += 3;
-  camera.x = bird.x;
-  floor.x = bird.x;
-
-  if(frameCount % 90 === 60) {
-    spawnPipePair();
-  }
-
-  for (let pipe of pipeGroup) {
-    if(pipe.x < -50){
-        pipe.remove();
+    if(kb.presses('space') || mouse.presses('left')){
+      bird.vel.y = -5;
+      bird.sleeping = false;
     }
-  }
 
 
-  if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y <= 15) {
-    gameoverLabel = new Sprite(width/2,height/2,192,42);
-    gameoverLabel.img = gameoverImg;
-    gameoverLabel.layer = 100;
-    gameoverLabel.x = camera.x;
-    noLoop();
+    if(bird.vel.y < -1) {
+      bird.img = flapUpImg;
+      bird.rotation = -30;
+    } else if (bird.vel.y > 1) {
+      bird.img = flapDownImg;
+      bird.rotation = 30;
+    } else {
+      bird.img = flapMidImg;
+      bird.rotation = 0;
+    }
+
+    bird.x += 3;
+    camera.x = bird.x;
+    floor.x = bird.x;
+
+    if(frameCount % 90 === 60) {
+      spawnPipePair();
+    }
+
+    for (let pipe of pipeGroup) {
+      if(pipe.x < -50){
+          pipe.remove();
+      }
+    }
+
+
+    if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y <= 15) {
+      gameoverLabel = new Sprite(width/2,height/2,192,42);
+      gameoverLabel.img = gameoverImg;
+      gameoverLabel.layer = 100;
+      gameoverLabel.x = camera.x;
+      noLoop();
+    }
   }
 
 }
