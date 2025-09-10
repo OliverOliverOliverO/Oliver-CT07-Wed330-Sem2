@@ -83,6 +83,7 @@ function draw(){
     }
   }
 
+
   if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y <= 15) {
     noLoop();
   }
