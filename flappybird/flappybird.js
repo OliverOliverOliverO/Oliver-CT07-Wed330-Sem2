@@ -60,7 +60,7 @@ function draw(){
   image(bg,0,0,width,height); // draw the bg
 
 
-  if (kb.presses('space'))
+  if (kb.presses('space') || mouse.presses('left'))
 
   if(kb.presses('space') || mouse.presses('left')){
     bird.vel.y = -5;
