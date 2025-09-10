@@ -8,6 +8,7 @@ let pipe;
 let topPipe, bottomPipe;
 let gameoverLabel;
 let startscreenLabel;
+let startGame = false;
 //load the images before game starts
 function preload(){
   bg = loadImage('assets/background-day.png');
@@ -51,7 +52,7 @@ function setup(){
  pipeGroup = new Group();
 
  startScreenLabel = new Sprite(width/2,height/2,50,50,'none');
- startScreenLabel = startScreenImg;
+ startScreenLabel.img = startScreenImg;
 
 }
 
