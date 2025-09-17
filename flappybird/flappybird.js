@@ -28,7 +28,7 @@ function setup(){
 //to create a new Canvas
  new Canvas(400,600);
  bird = new Sprite();
- bird.
+ bird.visible = false;
  bird.x =  width/2;
  bird.y = 200;
  bird.width = 30;
@@ -64,6 +64,7 @@ function draw(){
     startGame = true;
     startScreenLabel.visible = false;
     world.gravity.y = 10;
+    bird.visible = true;
   }
   
   if (startGame) {
