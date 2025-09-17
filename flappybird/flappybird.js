@@ -151,7 +151,7 @@ function drawScore(x,y,score,digitWidth,digitHeight) {
   let startX = x - totalWidth / 2;
 
   for(let i=0; i<scoreStr.length; i++) {
-    letdigit = int(scoreStr[i]);
+    let digit = int(scoreStr[i]);
     let xPos = startX + i * digitWidth;
     let digitSprite = new scoreDigits.Sprite(xPos,y,digitWidth,digitHeight);
     digitSprite.img = numberImages[digit];
