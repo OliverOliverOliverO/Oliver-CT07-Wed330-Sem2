@@ -2,13 +2,15 @@
 
 let bird , floor;
 let bg, base, flapMidImg;
-let bird2;
 let pipeGroup;
 let pipe;
 let topPipe, bottomPipe;
 let gameoverLabel;
 let startscreenLabel;
 let startGame = false;
+let score = 0;
+let numberimages = [];
+let scoreDigits;
 //load the images before game starts
 function preload(){
   bg = loadImage('assets/background-day.png');
@@ -22,6 +24,13 @@ function preload(){
 
   gameoverImg = loadImage('assets/gameover.png');
   startScreenImg = loadImage('assets/message.png');
+
+
+
+  for(let i=0; i<10; i++) {
+    numberImages[i] = loadImage('assets/' + i + '.png');
+  }
+
 }
 
 function setup(){
@@ -53,6 +62,10 @@ function setup(){
 
  startScreenLabel = new Sprite(width/2,height/2,50,50,'none');
  startScreenLabel.img = startScreenImg;
+
+ scoreDigits = new Group();
+ score.Digits.collider = "none";
+ scoreDigits.layer = 1001;
 
 }
 
@@ -110,6 +123,7 @@ function draw(){
       noLoop();
     }
   }
+  drawScore(width/2,20,score,24,36)
 
 }
 
@@ -128,4 +142,18 @@ function spawnPipePair() {
   pipeGroup.add(bottomPipe);
 
   pipeGroup.layer = 0;
+}
+
+function drawScore(x,y,score,digitWidth,digitHeight) {
+  scoreDigits.removeAll();
+  let scoreStr = str(score);
+  let totalWidth = scoreStr.length * digitWidth;
+  let startX = x - totalWidth / 2;
+
+  for(let i=0; i<scoreStr.length; i++) {
+    letdigit = int(scoreStr[i]);
+    let xPos = startX + i * digitWidth;
+    let digitSprite = new scoreDigits.Sprite(xPos,y,digitWidth,digitHeight);
+    digitSprite.img = numberImages[digit];
+  }
 }
