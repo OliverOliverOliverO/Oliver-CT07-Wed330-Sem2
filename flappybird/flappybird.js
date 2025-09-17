@@ -62,7 +62,7 @@ function draw(){
   if (kb.presses('space') || mouse.presses('left')){
     startGame = true;
     startScreenLabel.visible = false;
-    world
+    world.gravity.y = 10;
   }
   
   if (startGame) {
