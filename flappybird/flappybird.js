@@ -64,7 +64,7 @@ function setup(){
  startScreenLabel.img = startScreenImg;
 
  scoreDigits = new Group();
- score.Digits.collider = "none";
+ scoreDigits.collider = "none";
  scoreDigits.layer = 1001;
 
 }
