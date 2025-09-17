@@ -148,7 +148,7 @@ function drawScore(x,y,score,digitWidth,digitHeight) {
   scoreDigits.removeAll();
   let scoreStr = str(score);
   let totalWidth = scoreStr.length * digitWidth;
-  let startX = x - totalWidth / 2 + camera.x - width/2;
+  let startX = x - totalWidth / 2 + camera.x - width/2 + 24/2;
 
   for(let i=0; i<scoreStr.length; i++) {
     let digit = int(scoreStr[i]);
