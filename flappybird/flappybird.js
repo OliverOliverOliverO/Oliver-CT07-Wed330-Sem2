@@ -157,3 +157,7 @@ function drawScore(x,y,score,digitWidth,digitHeight) {
     digitSprite.img = numberImages[digit];
   }
 }
+
+function moveGroup(group, targetX, spacing
+  let totalWidth = (group)
+)
