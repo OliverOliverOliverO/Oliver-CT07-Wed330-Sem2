@@ -64,6 +64,7 @@ function draw(){
     startGame = true;
     startScreenLabel.visible = false;
   }
+  
   if (startGame) {
 
     if(kb.presses('space') || mouse.presses('left')){
@@ -111,7 +112,7 @@ function draw(){
 
 function spawnPipePair() {
   let gap = 50;
-  let midY = random(75, 375);
+  let midY = random(150, 375);
 
   topPipe = new Sprite(400 + bird.x, midY - gap / 2 - 200, 52, 320, 'kinematic');
   topPipe.img = pipeImg;
