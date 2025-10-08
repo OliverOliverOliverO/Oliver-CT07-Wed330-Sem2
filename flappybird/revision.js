@@ -5,5 +5,5 @@ function preload() {
 
 function setup() {
     new Canvas(400, 600);
-    new Sprite()
+    new Sprite(200, 300)
 }
