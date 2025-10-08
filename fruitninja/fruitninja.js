@@ -69,6 +69,7 @@ function sliceFruit() {
             let fy = fruit.y;
 
             fruit.remove();
+            
 
             break;
         }
