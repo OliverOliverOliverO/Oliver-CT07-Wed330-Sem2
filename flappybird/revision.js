@@ -1,3 +1,3 @@
 function preload() {
-    bg
+    backgroundImg = loadImage('')
 }
