@@ -81,6 +81,7 @@ function sliceFruit() {
 function splitFruit(x, y, fruitData) {
     let left = new fruitHalves.Sprite(x-20, y, 40, 40)
     left.img = fruitData.half;
+    left.vel.x = -3;
 
     let right = new fruitHalves.sprite(x+20, y, 40, 40)
     right.img = fruitData.half;
