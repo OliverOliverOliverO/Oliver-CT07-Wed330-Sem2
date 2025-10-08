@@ -11,6 +11,7 @@ let startGame = false;
 let score = 0;
 let numberImages = [];
 let scoreDigits;
+
 //load the images before game starts
 function preload(){
   bg = loadImage('assets/background-day.png');
@@ -105,6 +106,7 @@ function draw(){
 
     if(frameCount % 90 === 60) {
       spawnPipePair();
+      score++;
     }
 
     for (let pipe of pipeGroup) {
