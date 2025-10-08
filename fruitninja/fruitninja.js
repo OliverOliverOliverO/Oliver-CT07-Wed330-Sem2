@@ -38,7 +38,7 @@ function draw() {
         trail.collider = "none";
         trail.life = 10
 
-        splitFruit();
+        sliceFruit();
     }
 }
 
@@ -54,7 +54,7 @@ function spawnFruit() {
     fruit.friction = 0;
 }
 
-function splitFruit() {
+function sliceFruit() {
     for(let fruit of fruitGroup) {
         if(fruit.sliced) {
             continue;
