@@ -7,6 +7,7 @@ function setup() {
     new Canvas(400, 600);
     bird = new Sprite(200, 300, 50);
     bird.img = birdImg;
+    bird.layer = 1;
 
     bg = new Sprite(200, 300, 400, 600);
     bg.img = backgroundImg;
