@@ -34,6 +34,8 @@ function draw() {
         trail = new Sprite(mouse.x, mouse.y, 8);
         trail.collider = "none";
         trail.life = 10
+
+        splitFruit();
     }
 }
 
@@ -47,4 +49,8 @@ function spawnFruit() {
     fruit.vel.x = (height/2 - spawnX)/75;
     fruit.vel.y = random(-10, -14);
     fruit.friction = 0;
+}
+
+function splitFruit() {
+    
 }
