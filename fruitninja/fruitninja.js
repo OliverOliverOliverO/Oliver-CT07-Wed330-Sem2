@@ -56,5 +56,7 @@ function splitFruit() {
         if(fruit.sliced) {
             continue;
         }
+
+        
     }
 }
