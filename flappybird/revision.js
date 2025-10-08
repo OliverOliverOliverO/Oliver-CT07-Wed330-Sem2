@@ -11,5 +11,9 @@ function setup() {
     bg = new Sprite(0, 0, 400, 600);
     bg.img = backgroundImg;
 
+
+}
+
+function draw() {
     
 }
