@@ -9,7 +9,7 @@ function preload() {
 
     let peach = {
         whole: loadImage('assets/peachwhole.png'), 
-        half1: loadIMage('assets/peachhalf.png')
+        half1: loadIMage('assets/peachhalf2.png')
     }
 
     let watermelon = {
