@@ -9,12 +9,12 @@ function preload() {
 
     let peach = {
         whole: loadImage('assets/peachwhole.png'), 
-        half1: loadIMage('assets/peachhalf2.png')
+        half: loadIMage('assets/peachhalf2.png')
     }
 
     let watermelon = {
         whole: loadImage('assets/watermelonwhole.png'), 
-        half1: load
+        half: loadImage('assets/watermelonhalf.png')
     }
 
     fruitTypes = [peach, watermelon];
