@@ -65,7 +65,8 @@ function splitFruit() {
         if(d < fruit.d/2+5) {
             fruit.sliced = true;
             
-            let fx 
+            let fx = fruit.x;
+            let fy = fruit.y;
 
             fruit.remove();
 
