@@ -79,5 +79,5 @@ function sliceFruit() {
 }
 
 function splitFruit() {
-
+    let left = new fruitHalves.Sprite()
 }
