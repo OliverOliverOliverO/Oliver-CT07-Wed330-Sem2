@@ -1,3 +1,3 @@
 function preload() {
-    backgroundImg = loadImage('')
+    backgroundImg = loadImage('assets/background-day.png')
 }
