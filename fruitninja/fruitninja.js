@@ -60,7 +60,9 @@ function splitFruit() {
         let d = dist(mouse.x, mouse.y, fruit.x, fruit.y);
 
         if(d < fruit.d/2+5) {
-            fruit.sliced = true
+            fruit.sliced = true;
+
+            
         }
     }
 }
