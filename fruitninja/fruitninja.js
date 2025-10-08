@@ -76,3 +76,7 @@ function sliceFruit() {
         }
     }
 }
+
+function splitFruit() {
+    
+}
