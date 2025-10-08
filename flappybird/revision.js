@@ -10,7 +10,7 @@ function setup() {
 
     bg = new Sprite(200, 300, 400, 600);
     bg.img = backgroundImg;
-
+    bg.layer = 0;
 
 }
 
