@@ -46,6 +46,7 @@ function draw() {
     stroke(45, 178, 96);
     fill(255);
     textSize(24);
+    textAlign(LEFT, TOP);
     
 }
 
