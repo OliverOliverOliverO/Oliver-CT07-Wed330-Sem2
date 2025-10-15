@@ -16,5 +16,5 @@ function setup() {
 }
 
 function draw() {
-    
+    bird.vel.y += 
 }
