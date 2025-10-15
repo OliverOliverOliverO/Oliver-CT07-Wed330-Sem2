@@ -32,32 +32,33 @@ function setup() {
 }
 
 function draw() {
-    image(dojoBG,0,0,width,height);
+        if (state == 'game') {
+        image(dojoBG,0,0,width,height);
 
-    if (frameCount % 60 === 30) {
-        spawnFruit();
-    }
-    if(mouse.pressing()) {
-        trail = new Sprite(mouse.x, mouse.y, 8);
-        trail.collider = "none";
-        trail.life = 10
+        if (frameCount % 60 === 30) {
+            spawnFruit();
+        }
+        if(mouse.pressing()) {
+            trail = new Sprite(mouse.x, mouse.y, 8);
+            trail.collider = "none";
+            trail.life = 10
 
-        sliceFruit();
-    }
+            sliceFruit();
+        }
 
-    stroke(45, 178, 96);
-    fill(255);
-    textSize(24);
-    textAlign(LEFT, TOP);
-    text('Score: ' + score, 10, 10)
-    text('MissedFruits: ' + missedFruit, 200, 10)
-    for(fruit of fruitGroup) {
-        if(fruit.y > height+50) {
-        missedFruit += 1
-        fruit.remove();
+        stroke(45, 178, 96);
+        fill(255);
+        textSize(24);
+        textAlign(LEFT, TOP);
+        text('Score: ' + score, 10, 10)
+        text('MissedFruits: ' + missedFruit, 200, 10)
+        for(fruit of fruitGroup) {
+            if(fruit.y > height+50) {
+            missedFruit += 1
+            fruit.remove();
+            }
         }
     }
-
     if(gameState == 'start') {
         fill(0,180);
         rect(0,0,width,height);
