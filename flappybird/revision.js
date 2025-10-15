@@ -35,5 +35,5 @@ function setup() {
 function draw() {
     background(220);
 
-    ball = new Sprite
+    ball = new Sprite(200, 300, 30)
 }
