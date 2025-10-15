@@ -66,7 +66,7 @@ function spawnFruit() {
 function sliceFruit() {
     for(let fruit of fruitGroup) {
         if(fruit.y > 450) {
-            
+            missed
         }
         if(fruit.sliced) {
             continue;
