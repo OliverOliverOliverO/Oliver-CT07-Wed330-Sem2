@@ -5,7 +5,7 @@ function preload() {
 
 function setup() {
     new Canvas(400, 600);
-    world.gravity.y = 10
+    world.gravity.y = 10;
     bird = new Sprite(200, 300, 30, 30, 'dynamic');
     bird.img = birdImg;
     bird.layer = 1;
@@ -18,6 +18,6 @@ function setup() {
 
 function draw() {
     if(mouse.presses('left')) {
-        bird.vel.y -= 9
+        bird.vel.y = -5;
     }
 }
