@@ -1,8 +1,8 @@
-let bg;
+let bgImg;
 let birdImg;
 
 function preload() {
-    bg = loadImage('assets/background-day.png');
+    bgImg = loadImage('assets/background-day.png');
     birdImg = loadImage('assets/yellowbird-midflap.png');
 }
 
@@ -14,6 +14,7 @@ function setup() {
     bird.layer = 1;
 
     bg = new Sprite(200, 300, width, height, 'none');
+    bg.img = bgImg
 
 }
 
