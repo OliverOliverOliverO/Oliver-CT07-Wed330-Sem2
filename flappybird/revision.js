@@ -45,6 +45,6 @@ function draw() {
     background(220);
 
     if(mouse.presses('left')) {
-        ball.vel.y = 5
+        ball.vel.y = -5
     }
 }
