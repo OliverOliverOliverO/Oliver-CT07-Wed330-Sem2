@@ -60,7 +60,7 @@ function draw() {
 
     if(gameState == 'start') {
         fill(0,180);
-        React(0,0,width,height);
+        rect(0,0,width,height);
         fill(255);
         textAlign(CENTER, CENTER)
         text('Fruit Ninja', width/2, height/2-40)
