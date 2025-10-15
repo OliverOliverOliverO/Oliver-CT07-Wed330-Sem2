@@ -1,4 +1,5 @@
-
+let backgroundImg;
+let birdImg;
 
 function preload() {
     backgroundImg = loadImage('assets/background-day.png');
