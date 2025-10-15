@@ -33,8 +33,9 @@ function setup() {
     world.gravity.y = 1;
     background(220);
     ball = new Sprite(200, 300, 30);
+    ball.collider = 'dynamic';
 }
 
 function draw() {
-    
+
 }
