@@ -35,7 +35,5 @@ function setup() {
     ball = new Sprite(200, 300, 30);
 }
 
-function draw() {
-    world.gravity.y = 10;
-    ball.velocity.y += 1
-}
+// function draw() {
+// }
