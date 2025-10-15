@@ -51,7 +51,7 @@ function draw() {
     text('Score: ' + score, 10, 10)
     text('MissedFruits: ' + missedFruit, 10, 30)
     for(fruit of fruitGroup) {
-        if(fruit.y > 350) {
+        if(fruit.y > height+50) {
         missedFruit += 1
         fruit.remove();
         }
