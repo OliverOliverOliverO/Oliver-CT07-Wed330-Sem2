@@ -37,6 +37,4 @@ function setup() {
 
 function draw() {
     ball.velocity.y += 1
-
-
 }
