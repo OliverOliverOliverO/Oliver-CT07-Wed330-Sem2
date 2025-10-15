@@ -49,7 +49,7 @@ function draw() {
     textSize(24);
     textAlign(LEFT, TOP);
     text('Score: ' + score, 10, 10)
-    text('MissedFruits: ' + missedFruit, 50, 10)
+    text('MissedFruits: ' + missedFruit, 200, 10)
     for(fruit of fruitGroup) {
         if(fruit.y > height+50) {
         missedFruit += 1
