@@ -35,7 +35,7 @@ function preload() {
 
 function setup() {
     new Canvas(400, 600);
-    world.gravity.y = 1;
+    world.gravity.y = 10;
 
     ball = new Sprite(200, 300, 30);
     ball.collider = 'dynamic';
