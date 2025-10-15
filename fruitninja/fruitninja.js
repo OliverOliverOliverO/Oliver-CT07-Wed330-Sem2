@@ -57,6 +57,10 @@ function draw() {
         fruit.remove();
         }
     }
+
+    if(gameState == 'start') {
+        
+    }
 }
 
 function spawnFruit() {
