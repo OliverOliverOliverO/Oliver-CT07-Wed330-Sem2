@@ -50,11 +50,12 @@ function draw() {
     textAlign(LEFT, TOP);
     text('Score: ' + score, 10, 10)
     text('MissedFruits: ' + missedFruit, 10, 30)
-    for(fruit of fruitGroup) {}
+    for(fruit of fruitGroup) {
         if(fruit.y > 350) {
         missedFruit += 1
         fruit.remove();
         }
+    }
 }
 
 function spawnFruit() {
