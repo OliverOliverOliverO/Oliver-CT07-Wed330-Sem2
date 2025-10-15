@@ -66,7 +66,7 @@ function spawnFruit() {
 
 function sliceFruit() {
     for(let fruit of fruitGroup) {
-        if(fruit.y > 350 && fruit.vel.y > 0) {
+        if(fruit.y > 350 && fruit.vel.y < 0) {
             missedFruit += 1
             fruit.remove();
         }
