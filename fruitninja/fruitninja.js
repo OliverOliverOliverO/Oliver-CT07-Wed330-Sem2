@@ -59,7 +59,8 @@ function draw() {
     }
 
     if(gameState == 'start') {
-        
+        fill(0,180);
+        rect
     }
 }
 
