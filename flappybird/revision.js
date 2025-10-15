@@ -31,7 +31,7 @@
 function setup() {
     new Canvas(400, 600);
 
-        ball = new Sprite(200, 300, 30)
+    ball = new Sprite(200, 300, 30)
 }
 
 function draw() {
