@@ -17,6 +17,7 @@ function setup() {
 
     bg = new Sprite(200, 300, width, height, 'none');
     bg.img = bgImg
+    bg.layer = 0;
 
 }
 
