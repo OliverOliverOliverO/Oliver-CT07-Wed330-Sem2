@@ -63,7 +63,7 @@ function draw() {
         React(0,0,width,height);
         fill(255);
         textAlign(CENTER, CENTER)
-        text('Fruit Ninja', width/2, height)
+        text('Fruit Ninja', width/2, height/2-40)
     }
 }
 
