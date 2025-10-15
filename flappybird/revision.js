@@ -10,7 +10,7 @@ function setup() {
     bird.img = birdImg;
     bird.layer = 1;
 
-    bg = new Sprite(200, 300, 400, 600);
+    bg = new Sprite(200, 300, 400, 600, 'static');
     bg.img = backgroundImg;
     bg.layer = 0;
 
