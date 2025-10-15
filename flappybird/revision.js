@@ -3,6 +3,8 @@
 // let bird;
 // let bg;
 
+const { isValidElement } = require("react");
+
 // function preload() {
 //     bgImg = loadImage('assets/background-day.png');
 //     birdImg = loadImage('assets/yellowbird-midflap.png');
@@ -41,4 +43,8 @@ function setup() {
 
 function draw() {
     background(220);
+
+    if(mouse.presses('left')) {
+        ball.vel.y = 5
+    }
 }
