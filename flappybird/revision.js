@@ -36,5 +36,6 @@ function setup() {
 }
 
 function draw() {
+    world.gravity.y = 10;
     ball.velocity.y += 1
 }
