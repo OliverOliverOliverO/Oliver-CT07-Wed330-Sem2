@@ -30,13 +30,13 @@
 
 function setup() {
     new Canvas(400, 600);
-    world.gravity.y = 10;
+    // world.gravity.y = 10;
     background(220);
     ball = new Sprite(200, 300, 30);
 }
 
 function draw() {
-    ball
+    ball.velocity.y = -1
 
 
 }
