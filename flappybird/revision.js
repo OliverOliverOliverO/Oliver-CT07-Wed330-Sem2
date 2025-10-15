@@ -13,9 +13,7 @@ function setup() {
     bird.img = birdImg;
     bird.layer = 1;
 
-    image(backgroundImage, 200, 300, 400, 600, 'none');
-    bg.img = backgroundImg;
-    bg.layer = 0;
+    image(backgroundImage, 200, 300, innerWidth, height);
 
 }
 
