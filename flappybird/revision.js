@@ -16,7 +16,7 @@ function setup() {
 }
 
 function draw() {
-    bird.vel.y -= 2
+    bird.vel.y = 2
     if(mouse.presses('left')) {
         bird.vel.y += 9
     }
