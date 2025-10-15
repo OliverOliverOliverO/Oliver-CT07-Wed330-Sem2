@@ -81,11 +81,10 @@ function sliceFruit() {
             
             let fx = fruit.x;
             let fy = fruit.y;
-
+            score += 1
             fruit.remove();
 
             splitFruit(fx, fy, fruit.type)
-            score += 1
 
             break;
         }
