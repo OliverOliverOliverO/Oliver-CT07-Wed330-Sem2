@@ -43,7 +43,9 @@ function draw() {
         sliceFruit();
     }
 
-    stroke(45, 178, 96)
+    stroke(45, 178, 96);
+    FileList(255);
+    textSize(24);
 }
 
 function spawnFruit() {
