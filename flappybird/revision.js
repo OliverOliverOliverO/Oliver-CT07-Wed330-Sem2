@@ -6,11 +6,11 @@ function preload() {
 function setup() {
     new Canvas(400, 600);
     world.gravity.y = 3
-    bird = new Sprite(200, 300, 50);
+    bird = new Sprite(200, 300, 30, 30, 'dynamic');
     bird.img = birdImg;
     bird.layer = 1;
 
-    bg = new Sprite(200, 300, 400, 600, 'static');
+    bg = new Sprite(200, 300, 400, 600, 'none');
     bg.img = backgroundImg;
     bg.layer = 0;
 
