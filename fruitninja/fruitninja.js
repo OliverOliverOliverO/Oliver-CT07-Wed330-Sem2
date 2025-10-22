@@ -32,7 +32,7 @@ function setup() {
 }
 
 function draw() {
-    clearInterval();
+    clear();
         if(gameState == 'game') {
         image(dojoBG,0,0,width,height);
 
