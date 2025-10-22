@@ -68,7 +68,6 @@ function draw() {
         textSize(24);
         text('Press space or click to start', width/2, height/2+20)
 
-            return;
     }
 }
 
