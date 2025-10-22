@@ -32,7 +32,7 @@ function setup() {
 }
 
 function draw() {
-        if (state == 'game') {
+        if(gameState == 'game') {
         image(dojoBG,0,0,width,height);
 
         if (frameCount % 60 === 30) {
