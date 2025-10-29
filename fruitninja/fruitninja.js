@@ -54,6 +54,11 @@ function draw() {
         gameState = 'gameover';
         return;
     }
+
+
+    if (gameState == 'gameover') {
+        pass
+    }
     if(gameState === 'play') {
 
         if (millis()>lastFruitSpawn + (1000 - gameTimer*7.5)) {
