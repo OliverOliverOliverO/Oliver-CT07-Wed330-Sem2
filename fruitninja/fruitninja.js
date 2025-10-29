@@ -51,7 +51,7 @@ function draw() {
     }
     if(gameState === 'play') {
 
-        if (((60 - (gameDuration - gameTimer)/2))/60*1000>lastFruitSpawn) {
+        if (((60 - (gameDuration - gameTimer)/2))/60*1000 + millis()>lastFruitSpawn) {
             spawnFruit();
             lastFruitSpawn = millis();
         }
