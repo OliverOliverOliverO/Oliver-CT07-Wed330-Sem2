@@ -63,7 +63,7 @@ function draw() {
         textSize(48)
         textAlign(CENTER, CENTER)
         text("Score: " + score, width/2, height/2)
-        text("Missed Fruits: ")
+        text("Missed Fruits: " + missedFruits)
     }
     if(gameState === 'play') {
 
