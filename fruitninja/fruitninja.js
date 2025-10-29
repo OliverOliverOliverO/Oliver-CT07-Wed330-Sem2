@@ -25,6 +25,8 @@ function preload() {
     }
 
     fruitTypes = [peach, watermelon];
+
+    music = load
 }
 
 function setup() {
