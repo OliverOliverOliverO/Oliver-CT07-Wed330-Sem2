@@ -53,7 +53,8 @@ function draw() {
         gameStartTime = millis();
         gameTimer = 0;
 
-        music.play()
+        music.play();
+        music.loop();
     }
 
     if(gameTimer >= gameDuration) {
