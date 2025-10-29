@@ -51,7 +51,7 @@ function draw() {
     }
     if(gameState === 'play') {
 
-        if (((30 - (gameDuration - gameTimer)/2) ) === 0) {
+        if (((30 - (gameDuration - gameTimer)/2)) === 0) {
             spawnFruit();
         }
         if(mouse.pressing()) {
