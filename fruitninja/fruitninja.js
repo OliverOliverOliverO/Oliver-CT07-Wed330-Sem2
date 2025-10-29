@@ -59,10 +59,11 @@ function draw() {
         fill(0, 180);
         textAlign(CENTER, CENTER);
         rect(0,0,width,height);
-        fill(255);
+        fill(255, 0, 0);
         textSize(48);
         text('GAME OVER', width/2, height/2-60);
         textSize(24);
+        fill(255)
         text("Score: " + score, width/2, height/2);
         text("Missed Fruits: " + missedFruit, width/2, height/2+40);
         text("Press SPACE or CLICK to start", width/2, height/2+80);
