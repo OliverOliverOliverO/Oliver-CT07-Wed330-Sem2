@@ -59,15 +59,15 @@ function draw() {
     if (gameState == 'gameover') {
         fill(0, 180);
         rect(0,0,width,height);
-        fill(255)
-        textSize(48)
-        text('GAME OVER', width/2, height/2-60)
-        textAlign(CENTER, CENTER)
-        textSize(24)
-        text("Score: " + score, width/2, height/2)
-        text("Missed Fruits: " + missedFruits, width/2, height/2+40)
-        text("Press SPACE or CLICK to start")
-        gameState = 'start'
+        fill(255);
+        textSize(48);
+        text('GAME OVER', width/2, height/2-60);
+        textAlign(CENTER, CENTER);
+        textSize(24);
+        text("Score: " + score, width/2, height/2);
+        text("Missed Fruits: " + missedFruits, width/2, height/2+40);
+        text("Press SPACE or CLICK to start");
+        gameState = 'start';
         return;
         
     }
