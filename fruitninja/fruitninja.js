@@ -53,7 +53,7 @@ function draw() {
 
         if (((30 - (gameDuration - gameTimer)/2))/60*1000>lastFruitSpawn) {
             spawnFruit();
-            lastFruitSpawn = milli();
+            lastFruitSpawn = millis();
         }
         if(mouse.pressing()) {
             trail = new Sprite(mouse.x, mouse.y, 8);
