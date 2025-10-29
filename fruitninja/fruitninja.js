@@ -9,7 +9,7 @@ let gameState = 'start';
 let gameStartTime;
 let gameTimer;
 let gameDuration = 60;
-let fruitSpawns = 0
+let lastFruitSpawns = 0
 
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png');
@@ -51,7 +51,7 @@ function draw() {
     }
     if(gameState === 'play') {
 
-        if (((30 - (gameDuration - gameTimer)/2))/60*1000>fruitSpawn) {
+        if (((30 - (gameDuration - gameTimer)/2))/60*1000>lastFruitSpawn) {
             spawnFruit();
         }
         if(mouse.pressing()) {
