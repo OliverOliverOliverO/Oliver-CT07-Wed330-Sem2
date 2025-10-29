@@ -8,7 +8,7 @@ let missedFruit = 0;
 let gameState = 'start';
 let gameStartTime;
 let gameTimer;
-let gameDuration = 10;
+let gameDuration = 60;
 let lastFruitSpawn = 0;
 
 function preload() {
