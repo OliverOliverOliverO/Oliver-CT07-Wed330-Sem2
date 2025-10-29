@@ -68,6 +68,8 @@ function draw() {
         text("Missed Fruits: " + missedFruit, width/2, height/2+40);
         text("Press SPACE or CLICK to start", width/2, height/2+80);
         gameState = 'start';
+        fruitGroup.removeAll()
+        fruitHalves.removeAll()
         return;
         
     }
