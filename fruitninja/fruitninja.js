@@ -8,7 +8,7 @@ let missedFruit = 0;
 let gameState = 'start';
 let gameStartTime;
 let gameTimer;
-let gameDuration = 60;
+let gameDuration = 10;
 let lastFruitSpawn = 0;
 
 function preload() {
@@ -66,6 +66,7 @@ function draw() {
         text("Missed Fruits: " + missedFruits, width/2, height/2+40)
         text("Press SPACE or CLICK to start")
         gameState = 'start'
+        return;
         
     }
     if(gameState === 'play') {
