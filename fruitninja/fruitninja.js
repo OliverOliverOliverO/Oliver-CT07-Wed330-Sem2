@@ -50,7 +50,7 @@ function draw() {
     }
     if(gameState === 'play') {
 
-        if (frameCount % 60 === 30) {
+        if (frameCount % 300  === 30) {
             spawnFruit();
         }
         if(mouse.pressing()) {
