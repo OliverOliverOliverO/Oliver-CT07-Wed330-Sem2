@@ -84,7 +84,7 @@ function draw() {
 
     }
 
-    
+    gameTimer = floor
 }
 
 function spawnFruit() {
