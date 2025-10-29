@@ -9,7 +9,7 @@ let gameState = 'start';
 let gameStartTime;
 let gameTimer;
 let gameDuration = 60;
-let lastFruitSpawns = 0
+let lastFruitSpawn = 0;
 
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png');
