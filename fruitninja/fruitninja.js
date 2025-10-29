@@ -57,7 +57,9 @@ function draw() {
 
 
     if (gameState == 'gameover') {
-        pass;
+        fill(0, 180);
+        rect(0,0,width,height);
+        
     }
     if(gameState === 'play') {
 
