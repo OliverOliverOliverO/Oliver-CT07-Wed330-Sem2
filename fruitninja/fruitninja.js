@@ -158,6 +158,8 @@ function sliceFruit() {
 
             splitFruit(fx, fy, fruit.type)
 
+            hit.play()
+
             break;
         }
     }
