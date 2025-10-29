@@ -64,7 +64,9 @@ function draw() {
         textAlign(CENTER, CENTER)
         text("Score: " + score, width/2, height/2)
         text("Missed Fruits: " + missedFruits, width/2, height/2+40)
-        text("")
+        text("Press SPACE or CLICK to start")
+        gameState = 'start'
+        
     }
     if(gameState === 'play') {
 
