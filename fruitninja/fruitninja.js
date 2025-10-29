@@ -44,7 +44,7 @@ function draw() {
         missedFruit = 0;
         fruitGroup.removeAll()
         fruitHalves.removeAll()
-        
+
         gameStartTime = millis();
         gameTimer = 0;
     }
@@ -86,6 +86,8 @@ function draw() {
     }
 
     gameTimer = floor(milis() - gameStartTime) / 1000
+
+    text('Time: ' + (gameDuration - gameTimer), 400, 10)
 }
 
 function spawnFruit() {
