@@ -77,6 +77,7 @@ function draw() {
         gameState = 'start';
         fruitGroup.removeAll()
         fruitHalves.removeAll()
+        music.stop
         return;
         
     }
