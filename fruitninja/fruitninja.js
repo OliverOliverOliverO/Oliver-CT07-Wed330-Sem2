@@ -56,7 +56,7 @@ function draw() {
     }
 
 
-    if (gameState == 'gameover') {
+    if (gameState === 'gameover') {
         fill(0, 180);
         textAlign(CENTER, CENTER);
         rect(0,0,width,height);
