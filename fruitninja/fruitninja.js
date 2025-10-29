@@ -29,7 +29,6 @@ function preload() {
 
     music = createAudio('assets/fruit-ninja-bgtrack.mp3');
     music.volume() = 0.1;
-    music.loop()
 }
 
 function setup() {
