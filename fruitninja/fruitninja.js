@@ -60,7 +60,8 @@ function draw() {
         fill(0, 180);
         rect(0,0,width,height);
         fill(255)
-        
+        textSize(48)
+        textAlign(CENTER, CENTER)
     }
     if(gameState === 'play') {
 
