@@ -62,6 +62,7 @@ function draw() {
         fill(255)
         textSize(48)
         textAlign(CENTER, CENTER)
+        text("Score: " + score, width/2, height/2)
     }
     if(gameState === 'play') {
 
