@@ -33,8 +33,16 @@ function setup() {
 
 function draw() {
     clear();
-        image(dojoBG,0,0,width,height);
-        if(gameState == 'game') {
+    image(dojoBG,0,0,width,height);
+
+    if((kb.presses(' ') || mouse.presses()) && (gameState === 'start')) {
+        gameState = 'play';
+        score = 0;
+        missedFruit = 0;
+        fruitGroup.removeAll()
+        fruitHalves.removeAll()
+    }
+    if(gameState === 'play') {
 
         if (frameCount % 60 === 30) {
             spawnFruit();
