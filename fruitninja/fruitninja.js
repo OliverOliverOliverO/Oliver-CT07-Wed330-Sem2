@@ -61,6 +61,7 @@ function draw() {
         rect(0,0,width,height);
         fill(255)
         textSize(48)
+        text('GAME OVER')
         textAlign(CENTER, CENTER)
         text("Score: " + score, width/2, height/2)
         text("Missed Fruits: " + missedFruits, width/2, height/2+40)
