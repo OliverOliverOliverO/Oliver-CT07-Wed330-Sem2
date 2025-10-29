@@ -65,7 +65,7 @@ function draw() {
         textSize(24);
         text("Score: " + score, width/2, height/2);
         text("Missed Fruits: " + missedFruit, width/2, height/2+40);
-        text("Press SPACE or CLICK to start");
+        text("Press SPACE or CLICK to start", width/2, height/2+80);
         gameState = 'start';
         return;
         
