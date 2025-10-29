@@ -10,6 +10,7 @@ let gameStartTime;
 let gameTimer;
 let gameDuration = 60;
 let lastFruitSpawn = 0;
+let music;
 
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png');
@@ -26,7 +27,7 @@ function preload() {
 
     fruitTypes = [peach, watermelon];
 
-    music = loadSound('assets/fruit-ninja-bgtrack.mp3')
+    music = loadSound('assets/fruit-ninja-bgtrack.mp3');
 }
 
 function setup() {
