@@ -51,6 +51,8 @@ function draw() {
 
         gameStartTime = millis();
         gameTimer = 0;
+
+        music.play()
     }
 
     if(gameTimer >= gameDuration) {
