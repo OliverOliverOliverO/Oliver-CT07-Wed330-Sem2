@@ -45,7 +45,7 @@ function draw() {
         fruitGroup.removeAll()
         fruitHalves.removeAll()
         gameStartTime = millis();
-        gameTimer  
+        gameTimer = 0;
     }
     if(gameState === 'play') {
 
@@ -83,6 +83,8 @@ function draw() {
         text('Press space or click to start', width/2, height/2+20)
 
     }
+
+    
 }
 
 function spawnFruit() {
