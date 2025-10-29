@@ -49,6 +49,11 @@ function draw() {
         gameStartTime = millis();
         gameTimer = 0;
     }
+
+        if(gameTimer >= gameDuration) {
+        gameState = 'gameover';
+        return;
+    }
     if(gameState === 'play') {
 
         if (millis()>lastFruitSpawn + (1000 - gameTimer*7.5)) {
@@ -91,11 +96,6 @@ function draw() {
 
     text('Time: ' + (gameDuration - gameTimer), 400, 10)
 
-
-    if(gameTimer >= gameDuration) {
-        gameState = 'gameover';
-        return;
-    }
 }
 
 function spawnFruit() {
