@@ -15,7 +15,7 @@ function setup() {
 
     button = createButton('Guess');
     button.position(textBox.x+textBox.width+30,300)
-    button.mousePressed(displayText)
+    button.mousePressed(displayText())
 
     hiddenword = word[0].toUpperCase() + ' ' + '_'.repeat(word.length-1)
 }
