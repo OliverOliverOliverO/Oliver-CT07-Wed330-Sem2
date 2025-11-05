@@ -36,6 +36,12 @@ function displayText() {
 }
 
 function getCorrectLetters(guess, word) {
-    let getCorrectLetters = ';'
-    
+    let CorrectLetters = '';
+    for(let i=0;i<word.length;i++) {
+        if(word.includes(guess[i]) && !getCorrectLetters.includes(guess.toUpperCase)) {
+            CorrectLetters += guess[i].toUpperCase() + ' ';
+
+        }
+    }
+    return CorrectLetters;
 }
