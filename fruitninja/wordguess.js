@@ -11,12 +11,13 @@ function setup() {
 
     textBox = createInput();
     textBox.position(width/2+350-textBox.width/2, 300);
-    const word = words[Math.floor(Math.random() * words.length)];
+    //const word = words[Math.floor(Math.random() * words.length)];
 
     button = createButton('Guess');
     button.position(textBox.x+textBox.width+30,300)
     button.mousePressed(displayText())
 
+    
     hiddenword = word[0].toUpperCase() + ' ' + '_'.repeat(word.length-1)
 }
 
