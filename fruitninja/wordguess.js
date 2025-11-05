@@ -13,11 +13,11 @@ function setup() {
     textBox.position(width/2+350-textBox.width/2, 300);
     const word = words[Math.floor(Math.random() * words.length)];
 
-    hiddenword = word[0].toUpperCase() + ' ' + '_'.repeat(word.length-1)
-
     button = createButton('Guess');
     button.position(textBox.x+textBox.width+30,300)
     button.mousePressed(display)
+
+    hiddenword = word[0].toUpperCase() + ' ' + '_'.repeat(word.length-1)
 }
 
 function draw() {
