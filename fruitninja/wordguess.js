@@ -34,7 +34,7 @@ function draw() {
     text('Attempts: ' + attempt, width/2, 100);
     text('Hint: ' + hiddenword, width/2, 150)
     text(display, width/2, 350)
-    text(correct)
+    text(correct,)
 }
 
 function displayText() {
