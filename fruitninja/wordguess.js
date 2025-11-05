@@ -11,7 +11,8 @@ function setup() {
     textBox = createInput();
     textBox.position(width/2+550-textBox.width/2, 300)
     const word = words[Math.floor(Math.random() * words.length)]
-    button = createButton()
+    button = createButton();
+    button.position(textBox)
 }
 
 function draw() {
