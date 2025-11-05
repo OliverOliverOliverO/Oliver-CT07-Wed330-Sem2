@@ -4,6 +4,7 @@ let hiddenword = '';
 let textBox;
 let button;
 let display;
+let answer;
 
 
 function setup() {
@@ -19,6 +20,8 @@ function setup() {
 
     hiddenword = random(words); 
     hiddenword = hiddenword[0].toUpperCase() + ' ' + '_'.repeat(hiddenword.length-1)
+
+    getCorrectLetters(textBox.value(), hiddenword)
 }
 
 function draw() {
