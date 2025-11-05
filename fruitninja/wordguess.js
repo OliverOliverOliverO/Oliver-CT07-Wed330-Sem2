@@ -12,14 +12,14 @@ function setup() {
 
     textBox = createInput();
     textBox.position(width/2+350-textBox.width/2, 300);
-    let hiddenword = words[Math.floor(Math.random() * words.length)];
+    let answer = words[Math.floor(Math.random() * words.length)];
 
     button = createButton('Guess');
     button.position(textBox.x+textBox.width+30,300);
     button.mousePressed(displayText());
 
     // hiddenword = random(words); 
-    hiddenword = hiddenword[0].toUpperCase() + ' ' + '_'.repeat(hiddenword.length-1);
+    hiddenword = answer[0].toUpperCase() + ' ' + '_'.repeat(hiddenword.length-1);
 
     answer = getCorrectLetters(textBox.value(), hiddenword);
     console.log(answer);
