@@ -13,7 +13,8 @@ function setup() {
     textBox = createInput();
     textBox.position(width/2+350-textBox.width/2, 300);
     let answer = words[Math.floor(Math.random() * words.length)];
-console.log(answer);
+    console.log(answer);
+    
     button = createButton('Guess');
     button.position(textBox.x+textBox.width+30,300);
     button.mousePressed(displayText());
