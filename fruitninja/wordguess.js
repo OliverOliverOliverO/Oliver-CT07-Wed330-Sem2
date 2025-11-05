@@ -12,7 +12,7 @@ function setup() {
     textBox.position(width/2+350-textBox.width/2, 300);
     const word = words[Math.floor(Math.random() * words.length)];
 
-    hiddenword = word[0].toUpperCase() + ' '
+    hiddenword = word[0].toUpperCase() + ' ' + '_'
 
     button = createButton('Guess');
     button.position(textBox.x+textBox.width+30,300)
