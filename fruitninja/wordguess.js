@@ -22,7 +22,7 @@ function setup() {
     // hiddenword = random(words); 
     hiddenword = answer[0].toUpperCase() + ' ' + '_'.repeat(4);
 
-    answer = getCorrectLetters(textBox.value(), answer);
+    correct = getCorrectLetters(textBox.value(), answer);
     console.log(answer);
 }
 
