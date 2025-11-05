@@ -3,7 +3,8 @@ word = ['aback', 'abase', 'abate', 'abbey', 'abbot', 'abhor', 'abide', 'abled', 
 function setup() {
     new Canvas(600, 400);
 
-    textBox
+    textBox = createInput();
+    textBox.position(width/2-textBox.width/2, )
 }
 
 function draw() {
