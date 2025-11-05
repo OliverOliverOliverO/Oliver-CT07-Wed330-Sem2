@@ -3,6 +3,7 @@ let attempt = 0;
 let hiddenword = '';
 let textBox;
 let button;
+let display;
 
 
 function setup() {
