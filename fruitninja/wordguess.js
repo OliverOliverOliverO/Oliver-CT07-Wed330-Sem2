@@ -18,7 +18,7 @@ function setup() {
     button.mousePressed(displayText())
 
     hiddenword = random(words); 
-    hiddenword = word[0].toUpperCase() + ' ' + '_'.repeat(hiddenword.length-1)
+    hiddenword = hiddenword[0].toUpperCase() + ' ' + '_'.repeat(hiddenword.length-1)
 }
 
 function draw() {
