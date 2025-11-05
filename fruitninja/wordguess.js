@@ -15,13 +15,13 @@ function setup() {
     //const word = words[Math.floor(Math.random() * words.length)];
 
     button = createButton('Guess');
-    button.position(textBox.x+textBox.width+30,300)
-    button.mousePressed(displayText())
+    button.position(textBox.x+textBox.width+30,300);
+    button.mousePressed(displayText());
 
     hiddenword = random(words); 
-    hiddenword = hiddenword[0].toUpperCase() + ' ' + '_'.repeat(hiddenword.length-1)
+    hiddenword = hiddenword[0].toUpperCase() + ' ' + '_'.repeat(hiddenword.length-1);
 
-    getCorrectLetters(textBox.value(), hiddenword)
+    answer = getCorrectLetters(textBox.value(), hiddenword);
 }
 
 function draw() {
