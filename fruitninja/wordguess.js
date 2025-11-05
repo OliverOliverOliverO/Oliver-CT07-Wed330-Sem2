@@ -36,5 +36,6 @@ function displayText() {
 }
 
 function getCorrectLetters(guess, word) {
+    let getCorrectLetters = ';'
     
 }
