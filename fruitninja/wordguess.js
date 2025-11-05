@@ -9,8 +9,8 @@ function setup() {
     new Canvas(600, 400);
 
     textBox = createInput();
-    textBox.position(width/2+550-textBox.width/2, 300)
-    const word = words[Math.floor(Math.random() * words.length)]
+    textBox.position(width/2+550-textBox.width/2, 300);
+    const word = words[Math.floor(Math.random() * words.length)];
     button = createButton('Guess');
     button.position(textBox.x+textBox.width+30,300)
 }
