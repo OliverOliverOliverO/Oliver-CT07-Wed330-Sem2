@@ -17,7 +17,7 @@ function setup() {
     button.position(textBox.x+textBox.width+30,300)
     button.mousePressed(displayText())
 
-    
+    hidden
     hiddenword = word[0].toUpperCase() + ' ' + '_'.repeat(word.length-1)
 }
 
