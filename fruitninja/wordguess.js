@@ -6,4 +6,6 @@ function setup() {
 
 function draw() {
     background(255)
+    textSize(24);
+    textAlign(CENTER);
 }
