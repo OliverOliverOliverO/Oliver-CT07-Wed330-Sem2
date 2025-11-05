@@ -31,5 +31,5 @@ function draw() {
 }
 
 function displayText() {
-    display = textBox.value()
+    display = textBox.value();
 }
