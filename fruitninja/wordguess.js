@@ -22,6 +22,7 @@ function setup() {
     hiddenword = hiddenword[0].toUpperCase() + ' ' + '_'.repeat(hiddenword.length-1);
 
     answer = getCorrectLetters(textBox.value(), hiddenword);
+    console.log(answer);
 }
 
 function draw() {
