@@ -2,13 +2,14 @@ let words = ['aback', 'abase', 'abate', 'abbey', 'abbot', 'abhor', 'abide', 'abl
 let attempt = 0;
 let hiddenword = '';
 let textBox;
+let button;
 
 
 function setup() {
     new Canvas(600, 400);
 
     textBox = createInput();
-    textBox.position(width/2+600-textBox.width/2, 300)
+    textBox.position(width/2+550-textBox.width/2, 300)
     const word = words[Math.floor(Math.random() * words.length)]
 }
 
