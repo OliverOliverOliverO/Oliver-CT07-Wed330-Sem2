@@ -9,7 +9,7 @@ function setup() {
 
     textBox = createInput();
     textBox.position(width/2+600-textBox.width/2, 300)
-    const randomIndex = Math.floor(Math.random() * myArray.length)
+    const word = Math.floor(Math.random() * words.length)
 }
 
 function draw() {
